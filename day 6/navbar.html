@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar</title>
+    <style>
+        body {
+            margin: -21px 0px;
+            padding: 0px 0px;
+        }
+        
+        .container {
+            background-color: black;
+        }
+        /* li a:visited {
+            color: green;
+        } */
+        
+        ul {
+            overflow: auto;
+        }
+        
+        li {
+            margin: 13px 20px;
+            float: right;
+        }
+        
+        li a:hover {
+            color: red;
+        }
+        
+        .navbar {
+            padding-top: 10px;
+            color: white;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+        .navbar a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        #search {
+            color: white;
+            padding: 8px 4px;
+            border-radius: 50px;
+            width: 250px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li class="navbar"><input id="search" type="search" placeholder="type your query "></li>
+            <li class="navbar"><a href="#">Home</a> </li>
+            <li class="navbar"><a href="#">About Us</a> </li>
+            <li class="navbar"><a href="#">Services</a> </li>
+            <li class="navbar"><a href="#">Login</a> </li>
+
+        </ul>
+    </div>
+</body>
+
+</html>

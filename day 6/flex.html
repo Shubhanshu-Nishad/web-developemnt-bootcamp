@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container {
+            height: 600px;
+            width: 98%;
+            border: 5px solid black;
+            padding: 10px 10px;
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* flex-direction: row-reverse; */
+            flex-wrap: wrap;
+            /* align-items: flex-end; */
+        }
+        
+        .item {
+            width: 200px;
+            height: 200px;
+            background-color: bisque;
+            color: black;
+            margin: 10px 10px;
+            padding: 10px 10px;
+        }
+        
+        #item1 {
+            align-items: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="item" id="item1">Box 1 </p>
+        <p class="item" id="item2">Box 2</p>
+        <p class="item" id="item3">Box 3</p>
+        <p class="item" id="item4">Box 4</p>
+        <p class="item" id="item5">Box 5</p>
+        <p class="item" id="item6">Box 6</p>
+    </div>
+</body>
+
+</html>
